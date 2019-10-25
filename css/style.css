@@ -1,0 +1,171 @@
+body {
+	width: 1080px;
+	margin: 0 auto;
+	background: #49516F;
+	color: white;
+	font-family: "Andale Mono", AndaleMono, monospace;
+	color: #49516F;
+}
+
+.header {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FF1053;
+	color: white;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	background: white;
+	color: white;
+	border-radius: 50%;
+}
+
+.header p {
+	margin-bottom: 2rem;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	background: #ED0E4D;
+	width: 100%;
+}
+
+.main {
+	display: flex;
+}
+
+.nav-list {
+	
+	display: flex;
+	justify-content: space-between;
+	width: 840px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #49516F;
+}
+
+.project {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 10%;
+	background: #4C9F70;
+}
+
+.project-list {
+	margin: 0;
+}
+
+.project ul {
+	padding: 0;
+}
+
+.project li {
+	margin: 0.5rem 0;
+	margin-right: 0 1rem;
+	padding: 1rem;
+	background: #3F845D;
+	width: 100%;
+
+}
+
+.main-aside {
+	display: flex;
+	flex-direction: column;
+	background: #A0DDFF;
+	width: 60%;
+	padding: 1rem;
+}
+
+.main-aside p {
+	padding: 0 1rem;
+	border-bottom-right-radius: 2rem;
+}
+
+.img-aside {
+	width: 200px;
+	border-top-left-radius: 2rem;
+}
+
+.img-aside:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.aside p {
+	font-style: italic;
+	border-left: 2px solid ;
+	padding-left: 1rem;
+	/*border-top-left-radius: 1rem;*/
+	/*border-bottom-left-radius: 1rem;*/
+}
+
+.col-aside {
+
+	display: flex;
+
+}
+
+.col-aside p {
+	background: #BAE6FF;
+	padding: 1rem;
+	margin: 0;
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	background: #E0ED8E;
+	width: 30%;
+	padding: 1rem;
+}
+
+.col-article {
+	display: flex;
+	flex-direction: column;
+}
+
+.img-article {
+	width: 200px;
+	border-top-right-radius: 2rem;
+}
+
+.img-article:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background: #FF1053;
+	color: white;
+}
+
+
